@@ -1,0 +1,13 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cucumberautocomplete.steps": [
+        "src/test/java/tests/stepdefinitions/*.java"
+    ],
+    "cucumberautocomplete.glue": [
+        "tests.stepdefinitions"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.smartSnippets": true,
+    "cucumberautocomplete.syncFeatures": true
+}

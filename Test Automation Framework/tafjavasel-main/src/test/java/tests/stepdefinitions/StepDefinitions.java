@@ -7,7 +7,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
 import com.example.testautomationframework.implementation.EmagHomePageImpl;
+import com.example.testautomationframework.implementation.EmagProductPageImpl;
 import com.example.testautomationframework.models.EmagHomePage;
+import com.example.testautomationframework.models.EmagProductPage;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -27,6 +29,7 @@ public class StepDefinitions {
 
     private EdgeDriver driver;
     EmagHomePage emagHomePage;
+    EmagProductPage emagProductPage;
 
     /**
      * Sets up the WebDriver before each scenario.
@@ -65,6 +68,7 @@ public class StepDefinitions {
     public void i_open_the_e_mag_website() {
         driver.get("https://www.emag.ro");
         emagHomePage = new EmagHomePageImpl(driver);
+        emagProductPage = new EmagProductPageImpl(driver);
     }
 
     /**
@@ -86,4 +90,13 @@ public class StepDefinitions {
         assertTrue("Search results are not displayed!", isResultsDisplayed);
     }
 
+    @Then("I extract and display the product list with prices")
+    public void extractProductDetails() {
+        emagProductPage.extractProductDetails();
+    }
+
+    @Then("I extract and display the product ratings and reviews")
+    public void extractProductReviews() {
+        emagProductPage.extractProductReviews();
+    }
 }

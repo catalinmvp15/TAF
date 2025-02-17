@@ -1,0 +1,44 @@
+[7380:764:0217/153929.389:WARNING:activity_log_policy.cc(68)] Scheduling init
+[7380:764:0217/153929.389:WARNING:activity_log_policy.cc(68)] Scheduling init
+[9152:15236:0217/153929.500:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[9152:15236:0217/153929.506:ERROR:direct_composition_support.cc(1075)] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[7380:19376:0217/153929.513:INFO:edge_chrome_importer_utils_win.cc(33)] Google chrome user data path not found.
+[7380:764:0217/153930.093:ERROR:edge_auth_errors.cc(528)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kTokenRequestFailed, Secondary Error: kTokenFetchUserInteractionRequired, Platform error: -2147186499, hex:800488bd, Error string: Error code: 0x800488bd, error message:Error
+
+[7380:764:0217/153930.514:INFO:CONSOLE(2)] "PSL: Preferences API does not have background_setting_preferences. [object Object] Mon Feb 17 2025 15:39:30 GMT+0200 (Eastern European Standard Time)", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/vendors.f30eb488fb3069c7561f.js (2)
+[7380:764:0217/153930.574:INFO:CONSOLE(348)] "-ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/microsoft.5da1d823f3d7131a6bff.js (348)
+[11652:12188:0217/153930.605:WARNING:spdy_session.cc(3001)] Received HEADERS for invalid stream 1
+[11652:12188:0217/153930.658:WARNING:spdy_session.cc(3001)] Received HEADERS for invalid stream 3
+[7380:764:0217/153930.841:INFO:CONSOLE(703)] "Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113", source: https://www.emag.ro/ (703)
+[9152:19024:0217/153931.228:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(130,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[9152:19024:0217/153931.275:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(137,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[7380:764:0217/153931.275:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2.", source: https://www.emag.ro/ (0)
+[7380:764:0217/153931.275:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2.", source: https://www.emag.ro/ (0)
+[7380:764:0217/153931.275:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2.", source: https://www.emag.ro/ (0)
+[7380:764:0217/153931.275:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2.", source: https://www.emag.ro/ (0)
+[7380:764:0217/153931.275:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2.", source: https://www.emag.ro/ (0)
+[7380:764:0217/153931.275:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2.", source: https://www.emag.ro/ (0)
+[7380:764:0217/153931.275:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2.", source: https://www.emag.ro/ (0)
+[7380:764:0217/153931.275:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2.", source: https://www.emag.ro/ (0)
+[9152:10400:0217/153931.275:ERROR:mf_video_encoder_util.cc(573)] Set output type failed, The parameter is incorrect. (0x80070057)
+[7380:764:0217/153931.564:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://www.emag.ro/ (0)
+[7380:764:0217/153931.595:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[7380:764:0217/153931.595:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[7380:764:0217/153932.475:INFO:CONSOLE(3469)] "Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113", source: https://www.emag.ro/search/G614JVR-N4081 (3469)
+[7380:764:0217/153932.642:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://www.emag.ro/search/G614JVR-N4081 (0)
+[7380:764:0217/153935.512:WARNING:wtm_image_web_contents_helper.cc(848)] Favicon request has been preempted. Skipping.  old request_start_time=2025-02-17 13:39:29.548194 UTC, pending_favicon_request_start_time_=2025-02-17 13:39:32.631108 UTC
+[7380:764:0217/153935.512:WARNING:wtm_image_web_contents_helper.cc(848)] Favicon request has been preempted. Skipping.  old request_start_time=2025-02-17 13:39:30.385284 UTC, pending_favicon_request_start_time_=2025-02-17 13:39:32.631108 UTC
+[7380:764:0217/153935.512:WARNING:wtm_image_web_contents_helper.cc(848)] Favicon request has been preempted. Skipping.  old request_start_time=2025-02-17 13:39:31.592871 UTC, pending_favicon_request_start_time_=2025-02-17 13:39:32.631108 UTC
+[7380:764:0217/153935.512:WARNING:wtm_image_web_contents_helper.cc(848)] Favicon request has been preempted. Skipping.  old request_start_time=2025-02-17 13:39:31.709949 UTC, pending_favicon_request_start_time_=2025-02-17 13:39:32.631108 UTC
+[13600:896:0217/153935.557:INFO:extractor_impl.cc(983)] ExtractorImpl::SetIsPendingEEConfig : 1
+[7380:764:0217/153935.908:INFO:CONSOLE(1)] "auto_open_controller_script from Edge", source:  (1)
+[7380:764:0217/153936.727:WARNING:underside_helper.cc(1521)] If test does not need FrontLoad, this may be expected. SetFrontLoadDecision: 8
+[7380:764:0217/153943.059:WARNING:pref_notifier_impl.cc(41)] Pref observer for video_enhancement.mode found at shutdown.
+[11652:8248:0217/153943.075:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[11652:8248:0217/153943.075:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[7380:764:0217/153943.129:WARNING:pref_notifier_impl.cc(41)] Pref observer for browser.touch_mode found at shutdown.
+[7380:764:0217/153943.129:WARNING:pref_notifier_impl.cc(41)] Pref observer for edge_screenshot.shortcut.main found at shutdown.

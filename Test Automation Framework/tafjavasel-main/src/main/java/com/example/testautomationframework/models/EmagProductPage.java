@@ -13,4 +13,6 @@ public interface EmagProductPage {
     void extractProductDetails();
 
     void extractProductReviews();
+
+    void extractProductDetailsFromFirstResult();
 }

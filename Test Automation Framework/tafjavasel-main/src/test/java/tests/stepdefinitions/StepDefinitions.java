@@ -13,6 +13,7 @@ import com.example.testautomationframework.models.EmagProductPage;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -92,11 +93,16 @@ public class StepDefinitions {
 
     @Then("I extract and display the product list with prices")
     public void extractProductDetails() {
-        emagProductPage.extractProductDetails();
+        emagProductPage.extractProductDetailsFromFirstResult();
     }
 
     @Then("I extract and display the product ratings and reviews")
     public void extractProductReviews() {
         emagProductPage.extractProductReviews();
+    }
+
+    @And("I select the first product")
+    public void selectFirstProduct() {
+        emagHomePage.selectFirstProduct();
     }
 }

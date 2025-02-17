@@ -31,4 +31,10 @@ public class EmagHomePageImpl implements EmagHomePage {
         searchBox.sendKeys(product);
         searchBox.submit();
     }
+
+    @Override
+    public void selectFirstProduct() {
+        WebElement firstProduct = driver.findElement(By.cssSelector(".card-item"));
+        firstProduct.click();
+    }
 }

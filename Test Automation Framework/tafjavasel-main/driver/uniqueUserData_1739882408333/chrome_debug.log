@@ -1,0 +1,16 @@
+[8656:6416:0218/144009.011:WARNING:activity_log_policy.cc(68)] Scheduling init
+[8656:6416:0218/144009.011:WARNING:activity_log_policy.cc(68)] Scheduling init
+[8656:3112:0218/144009.155:INFO:edge_chrome_importer_utils_win.cc(33)] Google chrome user data path not found.
+[15508:11188:0218/144009.166:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[15508:11188:0218/144009.169:ERROR:direct_composition_support.cc(1075)] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[8656:6416:0218/144009.474:ERROR:edge_auth_errors.cc(528)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kTokenRequestFailed, Secondary Error: kTokenFetchUserInteractionRequired, Platform error: -2147186499, hex:800488bd, Error string: Error code: 0x800488bd, error message:Error
+
+[15508:13360:0218/144010.898:ERROR:mf_video_encoder_util.cc(573)] Set output type failed, The parameter is incorrect. (0x80070057)
+[15508:11188:0218/144010.913:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[15508:11188:0218/144010.914:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[15508:11188:0218/144010.915:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[8656:6416:0218/144010.994:WARNING:pref_notifier_impl.cc(41)] Pref observer for video_enhancement.mode found at shutdown.
+[13012:17464:0218/144011.009:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[13012:17464:0218/144011.009:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[8656:6416:0218/144011.056:WARNING:pref_notifier_impl.cc(41)] Pref observer for browser.touch_mode found at shutdown.
+[8656:6416:0218/144011.056:WARNING:pref_notifier_impl.cc(41)] Pref observer for edge_screenshot.shortcut.main found at shutdown.

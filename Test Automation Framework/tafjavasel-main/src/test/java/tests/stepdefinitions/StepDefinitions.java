@@ -32,35 +32,35 @@ public class StepDefinitions {
     EmagHomePage emagHomePage;
     EmagProductPage emagProductPage;
 
-    /**
-     * Sets up the WebDriver before each scenario.
-     */
-    @Before
-    public void setUp() {
-        EdgeOptions options = new EdgeOptions();
+    // /**
+    //  * Sets up the WebDriver before each scenario.
+    //  */
+    // @Before
+    // public void setUp() {
+    //     EdgeOptions options = new EdgeOptions();
         
-        // Generate a unique user data directory
-        Path userDataDir = Paths.get("C:\\Users\\Catalin\\Documents\\TAF\\Test Automation Framework\\tafjavasel-main\\driver\\uniqueUserData_" + System.currentTimeMillis());
-        try {
-            Files.createDirectories(userDataDir);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        options.addArguments("user-data-dir=" + userDataDir.toString());
+    //     // Generate a unique user data directory
+    //     Path userDataDir = Paths.get("C:\\Users\\Catalin\\Documents\\TAF\\Test Automation Framework\\tafjavasel-main\\driver\\uniqueUserData_" + System.currentTimeMillis());
+    //     try {
+    //         Files.createDirectories(userDataDir);
+    //     } catch (IOException e) {
+    //         e.printStackTrace();
+    //     }
+    //     options.addArguments("user-data-dir=" + userDataDir.toString());
 
-        driver = new EdgeDriver(options);
-        driver.manage().window().maximize();
-    }
+    //     driver = new EdgeDriver(options);
+    //     driver.manage().window().maximize();
+    // }
 
-    /**
-     * Tears down the WebDriver after each scenario.
-     */
-    @After
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
+    // /**
+    //  * Tears down the WebDriver after each scenario.
+    //  */
+    // @After
+    // public void tearDown() {
+    //     if (driver != null) {
+    //         driver.quit();
+    //     }
+    // }
 
     /**
      * Opens the eMAG website.

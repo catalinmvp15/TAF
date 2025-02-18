@@ -96,37 +96,32 @@ public class EmagProductPageImpl implements EmagProductPage {
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".page-title")));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".product-new-price")));
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".star-rating span")));
+        //wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".star-rating span")));
 
         WebElement titleElement = driver.findElement(By.cssSelector(".page-title"));
         WebElement priceElement = driver.findElement(By.cssSelector(".product-new-price"));
-        WebElement ratingElement = driver.findElement(By.cssSelector(".star-rating span"));
+        // WebElement ratingElement = driver.findElement(By.cssSelector(".star-rating span"));
         String productLink = driver.getCurrentUrl();
 
         String name = titleElement.getText();
         String price = priceElement.getText();
-        String rating = ratingElement.getText();
+        // String rating = ratingElement.getText();
 
         Map<String, String> productDetails = new HashMap<>();
         productDetails.put("name", name);
         productDetails.put("price", price);
-        productDetails.put("rating", rating);
+        // productDetails.put("rating", rating);
         productDetails.put("link", productLink);
 
         logger.info("🔍 Product details found on eMAG:");
         logger.info("Name: " + name);
         logger.info("Price: " + price);
-        logger.info("Rating: " + rating);
+        // logger.info("Rating: " + rating);
         logger.info("Link: " + productLink);
 
         // Save data
        getProductDetailsList(productDetails);
     }
-
-    // private void selectProductById(String productId) {
-    //     By productLink = By.cssSelector("a[href*='" + productId + "']");
-    //     wait.until(ExpectedConditions.elementToBeClickable(productLink)).click();
-    // }
 
     private void getProductDetailsList(Map<String, String> productDetails) {
         // Save data

@@ -1,0 +1,35 @@
+[17008:2448:0218/124010.659:WARNING:activity_log_policy.cc(68)] Scheduling init
+[17008:2448:0218/124010.659:WARNING:activity_log_policy.cc(68)] Scheduling init
+[17008:1496:0218/124010.778:INFO:edge_chrome_importer_utils_win.cc(33)] Google chrome user data path not found.
+[19328:3868:0218/124010.800:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[19328:3868:0218/124010.802:ERROR:direct_composition_support.cc(1075)] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[17008:2448:0218/124011.062:ERROR:edge_auth_errors.cc(528)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kTokenRequestFailed, Secondary Error: kTokenFetchUserInteractionRequired, Platform error: -2147186499, hex:800488bd, Error string: Error code: 0x800488bd, error message:Error
+
+[17008:2448:0218/124012.141:INFO:CONSOLE(703)] "Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113", source: https://www.emag.ro/ (703)
+[17008:2448:0218/124012.207:INFO:CONSOLE(705)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2.", source: https://www.emag.ro/ (705)
+[17008:2448:0218/124012.207:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2.", source: https://www.emag.ro/ (0)
+[17008:2448:0218/124012.207:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2.", source: https://www.emag.ro/ (0)
+[17008:2448:0218/124012.207:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2.", source: https://www.emag.ro/ (0)
+[17008:2448:0218/124012.207:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2.", source: https://www.emag.ro/ (0)
+[17008:2448:0218/124012.207:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2.", source: https://www.emag.ro/ (0)
+[17008:2448:0218/124012.207:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2.", source: https://www.emag.ro/ (0)
+[17008:2448:0218/124012.207:INFO:CONSOLE(0)] "Tracking Prevention blocked access to storage for https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2.", source: https://www.emag.ro/ (0)
+[19328:13668:0218/124012.297:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(130,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[19328:13668:0218/124012.331:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(137,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[19328:15572:0218/124012.481:ERROR:mf_video_encoder_util.cc(573)] Set output type failed, The parameter is incorrect. (0x80070057)
+[17008:2448:0218/124012.886:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[17008:2448:0218/124012.886:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[17008:2448:0218/124013.011:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://www.emag.ro/ (0)
+[17008:2448:0218/124014.058:INFO:CONSOLE(3157)] "Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113", source: https://www.emag.ro/search/G614JVR-N4081 (3157)
+[17008:2448:0218/124014.380:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://www.emag.ro/search/G614JVR-N4081 (0)
+[17008:2448:0218/124014.832:INFO:CONSOLE(2287)] "Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113", source: https://www.emag.ro/laptop-gaming-asus-rog-strix-g16-g614jvr-cu-procesor-intelr-coretm-i9-14900hx-pana-la-5-8-ghz-16-qhd-ips-240hz-32gb-ddr5-1tb-ssd-nvidiar-geforce-rtxtm-4060-8gb-gddr6-tgp-140w-no-os-volt-green-g614jvr-/pd/D6TP8TYBM/ (2287)
+[17008:2448:0218/124015.437:INFO:CONSOLE(0)] "<meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes">", source: https://www.emag.ro/laptop-gaming-asus-rog-strix-g16-g614jvr-cu-procesor-intelr-coretm-i9-14900hx-pana-la-5-8-ghz-16-qhd-ips-240hz-32gb-ddr5-1tb-ssd-nvidiar-geforce-rtxtm-4060-8gb-gddr6-tgp-140w-no-os-volt-green-g614jvr-/pd/D6TP8TYBM/ (0)
+[17008:2448:0218/124015.625:WARNING:pref_notifier_impl.cc(41)] Pref observer for video_enhancement.mode found at shutdown.
+[12056:16252:0218/124015.657:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[12056:16252:0218/124015.657:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[17008:2448:0218/124015.733:WARNING:pref_notifier_impl.cc(41)] Pref observer for browser.touch_mode found at shutdown.
+[17008:2448:0218/124015.733:WARNING:pref_notifier_impl.cc(41)] Pref observer for edge_screenshot.shortcut.main found at shutdown.

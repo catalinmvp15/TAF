@@ -1,0 +1,31 @@
+[15612:19220:0218/134023.626:WARNING:activity_log_policy.cc(68)] Scheduling init
+[15612:19220:0218/134023.657:WARNING:activity_log_policy.cc(68)] Scheduling init
+[15612:9800:0218/134023.766:INFO:edge_chrome_importer_utils_win.cc(33)] Google chrome user data path not found.
+[8252:12332:0218/134023.779:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[8252:12332:0218/134023.782:ERROR:direct_composition_support.cc(1075)] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[15612:19220:0218/134024.137:ERROR:edge_auth_errors.cc(528)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kTokenRequestFailed, Secondary Error: kTokenFetchUserInteractionRequired, Platform error: -2147186499, hex:800488bd, Error string: Error code: 0x800488bd, error message:Error
+
+[8252:3752:0218/134025.507:ERROR:mf_video_encoder_util.cc(573)] Set output type failed, The parameter is incorrect. (0x80070057)
+[15612:19220:0218/134025.858:INFO:CONSOLE(2)] "PSL: Preferences API does not have background_setting_preferences. [object Object] Tue Feb 18 2025 13:40:25 GMT+0200 (Eastern European Standard Time)", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/vendors.f30eb488fb3069c7561f.js (2)
+[15612:19220:0218/134025.903:INFO:CONSOLE(348)] "-ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/microsoft.5da1d823f3d7131a6bff.js (348)
+[8252:11308:0218/134026.207:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(137,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[15612:19220:0218/134026.558:INFO:CONSOLE(41)] "Tue Feb 18 2025 13:40:26 GMT+0200 (Eastern European Standard Time): 1739878826567 {"id":91005,"severity":0,"pb":{"build":"20250214.508","appType":"edgeChromium","pcsVersion":"20250212.9_master","pcsEnv":"prod","buildAlias":"latest","shouldSupressWarnings":false,"shouldSampleErrorsForTreatement1":false,"shouldSampleErrorsForTreatement2":false,"networkStatus":"connected","pcsMuid":"notfound","oneServiceMuid":"348cc13402cc6be03a85d4a3030d6ab4","pcsFlightBlobVersion":"53511610","oneServiceFlightBlobVersion":"53511610","oneServiceDebugId":"edcc1ae4-4b79-4074-a9b3-6fabf1a04b4a|2025-02-18T11:40:26.7027767Z|fabric_msn|NEU-A|Msn_25","w":1},"message":"Muid mismatch between PCS and 1S"}", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/common.a4f044fd68445545fb52.js (41)
+[15612:19220:0218/134027.162:INFO:CONSOLE(348)] "-ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/microsoft.5da1d823f3d7131a6bff.js (348)
+[15612:19220:0218/134027.222:INFO:CONSOLE(354)] "-ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/microsoft.5da1d823f3d7131a6bff.js (354)
+[11176:8044:0218/134027.441:ERROR:ssl_client_socket_impl.cc(891)] handshake failed; returned -1, SSL error code 1, net_error -201
+[11176:8044:0218/134027.441:ERROR:ssl_client_socket_impl.cc(891)] handshake failed; returned -1, SSL error code 1, net_error -201
+[15612:19220:0218/134027.603:INFO:CONSOLE(348)] "-ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/microsoft.5da1d823f3d7131a6bff.js (348)
+[15612:19220:0218/134027.603:INFO:CONSOLE(348)] "-ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/microsoft.5da1d823f3d7131a6bff.js (348)
+[8252:1672:0218/134027.690:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(137,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[15612:19220:0218/134029.775:WARNING:wtm_image_web_contents_helper.cc(848)] Favicon request has been preempted. Skipping.  old request_start_time=2025-02-18 11:40:23.810164 UTC, pending_favicon_request_start_time_=2025-02-18 11:40:25.592333 UTC
+[18352:7984:0218/134029.823:INFO:extractor_impl.cc(983)] ExtractorImpl::SetIsPendingEEConfig : 1
+[15612:19220:0218/134030.125:WARNING:underside_helper.cc(1521)] If test does not need FrontLoad, this may be expected. SetFrontLoadDecision: 8
+[15612:19220:0218/134032.914:WARNING:pref_notifier_impl.cc(41)] Pref observer for video_enhancement.mode found at shutdown.
+[11176:896:0218/134032.945:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[11176:896:0218/134032.945:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[15612:19220:0218/134032.996:WARNING:pref_notifier_impl.cc(41)] Pref observer for browser.touch_mode found at shutdown.
+[15612:19220:0218/134032.996:WARNING:pref_notifier_impl.cc(41)] Pref observer for edge_screenshot.shortcut.main found at shutdown.

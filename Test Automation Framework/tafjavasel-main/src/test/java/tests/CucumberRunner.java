@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
     glue = {"tests.stepdefinitions"},           // Correct glue path
     plugin = {"pretty", "html:target/cucumber-report.html"}, 
     monochrome = true,                          // Cleaner console output
-    tags = "@AN"                                // Specify the tag to run
+    tags = "@an and not @Skip"                 // Include @an and exclude @Skip
 )
 public class CucumberRunner {
     // Entry point for Cucumber tests

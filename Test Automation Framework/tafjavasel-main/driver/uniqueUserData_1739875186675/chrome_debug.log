@@ -1,0 +1,22 @@
+[7752:952:0218/123947.275:WARNING:activity_log_policy.cc(68)] Scheduling init
+[7752:952:0218/123947.275:WARNING:activity_log_policy.cc(68)] Scheduling init
+[3652:11328:0218/123947.394:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[3652:11328:0218/123947.394:ERROR:direct_composition_support.cc(1075)] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[7752:4280:0218/123947.394:INFO:edge_chrome_importer_utils_win.cc(33)] Google chrome user data path not found.
+[7752:952:0218/123947.890:ERROR:edge_auth_errors.cc(528)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kTokenRequestFailed, Secondary Error: kTokenFetchUserInteractionRequired, Platform error: -2147186499, hex:800488bd, Error string: Error code: 0x800488bd, error message:Error
+
+[7752:952:0218/123948.257:INFO:CONSOLE(2)] "PSL: Preferences API does not have background_setting_preferences. [object Object] Tue Feb 18 2025 12:39:48 GMT+0200 (Eastern European Standard Time)", source: https://assets.msn.com/bundles/v1/edgeChromium/latest/vendors.f30eb488fb3069c7561f.js (2)
+[7752:952:0218/123948.296:INFO:CONSOLE(7)] "Error in fetch URL : https://assets.msn.com/staticsb/statics/latest/oneTrust/2.0/consent/55a804ab-e5c6-4b97-9319-86263d365d28/01920def-5085-7a4b-a455-3b48bf172a1e/logos/static/ot_guard_logo.svg Exception :TypeError: Failed to fetch", source: https://assets.msn.com/staticsb/statics/latest/oneTrust/2.0/scripttemplates/202408.1.0/otBannerSdk.js (7)
+[3652:13696:0218/123948.394:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(137,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[7752:952:0218/123948.632:INFO:CONSOLE(1)] "[Cloudflare Turnstile] Compatibility layer enabled.", source: https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha&hl=ro&onload=lcb&render=explicit (1)
+[7752:952:0218/123948.632:INFO:CONSOLE(1)] "[Cloudflare Turnstile] Unknown parameter passed to api.js: "?hl=...", ignoring.", source: https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha&hl=ro&onload=lcb&render=explicit (1)
+[7752:952:0218/123948.632:INFO:CONSOLE(1)] "[Cloudflare Turnstile] Call to execute() on a widget that is already executing (cf-chl-widget-4r058), consider using reset() before execute().", source: https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha&hl=ro&onload=lcb&render=explicit (1)
+[3652:11328:0218/123948.865:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[3652:11328:0218/123948.867:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[7752:952:0218/123948.945:WARNING:pref_notifier_impl.cc(41)] Pref observer for video_enhancement.mode found at shutdown.
+[8712:2540:0218/123948.961:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[8712:2540:0218/123948.961:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[7752:952:0218/123949.079:WARNING:pref_notifier_impl.cc(41)] Pref observer for browser.touch_mode found at shutdown.
+[7752:952:0218/123949.079:WARNING:pref_notifier_impl.cc(41)] Pref observer for edge_screenshot.shortcut.main found at shutdown.

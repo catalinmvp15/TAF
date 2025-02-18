@@ -1,0 +1,23 @@
+[14704:17684:0218/123957.152:WARNING:activity_log_policy.cc(68)] Scheduling init
+[14704:17684:0218/123957.152:WARNING:activity_log_policy.cc(68)] Scheduling init
+[14704:18280:0218/123957.274:INFO:edge_chrome_importer_utils_win.cc(33)] Google chrome user data path not found.
+[11868:3420:0218/123957.276:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[11868:3420:0218/123957.276:ERROR:direct_composition_support.cc(1075)] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[14704:17684:0218/123957.572:ERROR:edge_auth_errors.cc(528)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kTokenRequestFailed, Secondary Error: kTokenFetchUserInteractionRequired, Platform error: -2147186499, hex:800488bd, Error string: Error code: 0x800488bd, error message:Error
+
+[14704:17684:0218/123958.021:INFO:CONSOLE(7)] "Error in fetch URL : https://assets.msn.com/staticsb/statics/latest/oneTrust/2.0/scripttemplates/202408.1.0/assets/v2/otPcCenter.json Exception :TypeError: Failed to fetch", source: https://assets.msn.com/staticsb/statics/latest/oneTrust/2.0/scripttemplates/202408.1.0/otBannerSdk.js (7)
+[14704:17684:0218/123958.021:INFO:CONSOLE(7)] "Error in fetch URL : https://assets.msn.com/staticsb/statics/latest/oneTrust/2.0/scripttemplates/202408.1.0/assets/otCommonStyles.css Exception :TypeError: Failed to fetch", source: https://assets.msn.com/staticsb/statics/latest/oneTrust/2.0/scripttemplates/202408.1.0/otBannerSdk.js (7)
+[14704:17684:0218/123958.021:INFO:CONSOLE(7)] "Error in fetch URL : https://assets.msn.com/staticsb/statics/latest/oneTrust/2.0/scripttemplates/202408.1.0/assets/otFlat.json Exception :TypeError: Failed to fetch", source: https://assets.msn.com/staticsb/statics/latest/oneTrust/2.0/scripttemplates/202408.1.0/otBannerSdk.js (7)
+[11868:6228:0218/123958.107:WARNING:angle_platform_impl.cc(49)] HLSLCompiler.cpp:250 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(137,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[14704:17684:0218/123958.398:INFO:CONSOLE(1)] "[Cloudflare Turnstile] Compatibility layer enabled.", source: https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha&hl=ro&onload=lcb&render=explicit (1)
+[14704:17684:0218/123958.398:INFO:CONSOLE(1)] "[Cloudflare Turnstile] Unknown parameter passed to api.js: "?hl=...", ignoring.", source: https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha&hl=ro&onload=lcb&render=explicit (1)
+[14704:17684:0218/123958.404:INFO:CONSOLE(1)] "[Cloudflare Turnstile] Call to execute() on a widget that is already executing (cf-chl-widget-ami4i), consider using reset() before execute().", source: https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha&hl=ro&onload=lcb&render=explicit (1)
+[11868:3420:0218/123958.615:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[11868:3420:0218/123958.615:ERROR:shared_image_manager.cc(250)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[14704:17684:0218/123958.698:WARNING:pref_notifier_impl.cc(41)] Pref observer for video_enhancement.mode found at shutdown.
+[13536:17040:0218/123958.713:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[13536:17040:0218/123958.713:WARNING:sqlite_persistent_store_backend_base.cc(202)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:258 to client_task_runner_.
+[14704:17684:0218/123958.772:WARNING:pref_notifier_impl.cc(41)] Pref observer for browser.touch_mode found at shutdown.
+[14704:17684:0218/123958.772:WARNING:pref_notifier_impl.cc(41)] Pref observer for edge_screenshot.shortcut.main found at shutdown.

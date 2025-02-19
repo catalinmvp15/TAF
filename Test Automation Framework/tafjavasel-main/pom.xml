@@ -67,7 +67,22 @@
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
             <version>5.7.5</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>Cucumber Test Report</projectName>
+                            <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory>
+                            <jsonFiles>${project.build.directory}/cucumber-reports/cucumber.json</jsonFiles>
+                        </configuration>
+                    </execution>
+            </executions>
         </plugin>
+
 
         <!-- Maven Surefire Plugin (Executes Tests) -->
         <plugin>

@@ -1,8 +1,12 @@
 package com.example.testautomationframework.implementation;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.example.testautomationframework.models.AltexHomepage;
 
@@ -13,17 +17,19 @@ import com.example.testautomationframework.models.AltexHomepage;
 public class AltexHomePageImpl implements AltexHomepage {
 
     private WebDriver driver;
+    private WebDriverWait wait;
 
     private By searchBox = By.xpath("//input[@placeholder='Cauta produsul dorit']");
     private By productElement = By.xpath("//div[contains(@class, 'Product')]");
 
     /**
-     * Constructor to initialize WebDriver.
+     * Constructor to initialize WebDriver and WebDriverWait.
      *
      * @param driver the WebDriver instance to use
      */
     public AltexHomePageImpl(WebDriver driver) {
         this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // Initialize WebDriverWait with 20 seconds wait time
     }
 
     /**
@@ -38,15 +44,17 @@ public class AltexHomePageImpl implements AltexHomepage {
         searchInput.submit();
     }
 
+    /**
+     * Verifies that the product element is displayed.
+     */
     @Override
     public void verifyElementIsDisplayed() {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(productElement));
         WebElement element = driver.findElement(productElement);
         if (element.isDisplayed()) {
             System.out.println("Element is displayed");
-    } else {
+        } else {
             System.out.println("Element is not displayed");
         }
     }
-
-
 }

@@ -1,0 +1,4 @@
+2025/02/19-12:23:10.376 283c Creating DB C:\Users\Catalin\Documents\TAF\Test Automation Framework\tafjavasel-main\driver\uniqueUserData_1739960585438\Default\EdgeCoupons/coupons_data.db since it was missing.
+2025/02/19-12:23:10.387 283c Reusing MANIFEST C:\Users\Catalin\Documents\TAF\Test Automation Framework\tafjavasel-main\driver\uniqueUserData_1739960585438\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/02/19-12:23:10.390 4890 Level-0 table #5: started
+2025/02/19-12:23:10.393 4890 Level-0 table #5: 668269 bytes OK

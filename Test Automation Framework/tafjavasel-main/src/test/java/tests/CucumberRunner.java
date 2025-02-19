@@ -8,7 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     features = "src/test/resources/features",   // Path to the feature file
     glue = {"tests.stepdefinitions"},           // Correct glue path
-    plugin = {"pretty", "html:target/cucumber-report.html"}, 
+    plugin = {
+        "pretty",
+        "json:target/cucumber-reports/cucumber.json",
+        "html:target/cucumber-html-reports"
+    },
     monochrome = true,                          // Cleaner console output
     tags = "@an and not @Skip"                 // Include @an and exclude @Skip
 )

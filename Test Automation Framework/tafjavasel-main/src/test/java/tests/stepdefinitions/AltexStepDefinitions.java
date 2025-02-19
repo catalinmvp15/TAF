@@ -16,6 +16,7 @@ import com.example.testautomationframework.models.AltexProduct;
 import dev.failsafe.internal.util.Assert;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -74,4 +75,12 @@ public class AltexStepDefinitions {
         altexHomepage.verifyElementIsDisplayed();
     }
     
+    @And("I wait for {int} seconds")
+    public void iWaitForSeconds(int seconds) {
+        try {
+            Thread.sleep(seconds * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
